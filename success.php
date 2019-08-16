@@ -7,7 +7,7 @@ $email = htmlspecialchars($_POST["email"]);
 $refferer = getenv('HTTP_REFERER');
 $date = date("d.m.y"); // число.месяц.год
 $time = date("H:i"); // часы:минуты:секунды
-$myemail = "drakon2000@ukr.net";
+$myemail = "drakon20000@gmail.com";
 
 	$tema = "Заявка с сайта";
 	$message_to_myemail = "У вас заявка с сайта:
