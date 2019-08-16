@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Описание проекта на бутстрапе">
+	<meta name="keywords" content="Описание проекта на бутстрапе">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+	<title>Мой проект на бутстрапе</title>
+
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- Основной файл стилей -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#EBEBEB">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#EBEBEB">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#EBEBEB">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<section>
+	<div class="container">
+
+		<!-- Делаем колонки простым классом col -->
+
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Колонки одинаковой ширины</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div class="exampl-div">1 из 2</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">2 из 2</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div class="exampl-div">1 из 3</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">2 из 3</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">3 из 3</div>
+		</div>
+	</div> -->
+
+
+
+
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Установка ширины одной колонки</h3>
+		</div>
+	</div>
+
+  <div class="row">
+    <div class="col">
+      <div class="exampl-div">1 из 3</div>
+    </div>
+    <div class="col-6">
+      <div class="exampl-div">2 из 3 (широкая)</div>
+    </div>
+    <div class="col">
+      <div class="exampl-div">3 из 3</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="exampl-div">1 из 3</div>
+    </div>
+    <div class="col-8">
+      <div class="exampl-div">2 из 3 (широкая)</div>
+    </div>
+    <div class="col">
+      <div class="exampl-div">3 из 3</div>
+    </div>
+  </div> -->
+
+	<!-- Выстраиваем контент переменной ширины -->
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Контент переменной ширины</h3>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col col-md-2">
+			<div class="exampl-div">col-md-2 (1 из 3)</div>
+		</div>
+		<div class="col-sm-auto">
+			<div class="exampl-div">Контент переменной ширины</div>
+		</div>
+		<div class="col col-md-2">
+			<div class="exampl-div">col-md-2 (3 из 3)</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div class="exampl-div">1 из 3</div>
+		</div>
+		<div class="col-sm-auto">
+			<div class="exampl-div">Контент переменной ширины</div>
+		</div>
+		<div class="col col-sm-2">
+			<div class="exampl-div">3 из 3</div>
+		</div>
+	</div> -->
+
+
+
+	<!-- Выстраиваем несколько строк или переносов. Построение "мультиряда" -->
+	<!-- Подключение bootstrap через SCSS (scss/utilities/_sizing.scss)-->
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Перенос строк (несколько колонок с переносами)</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div class="exampl-div">1 из 4</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">2 из 4</div>
+		</div>
+		<div class="w-100"></div>
+		<div class="col">
+			<div class="exampl-div">3 из 4</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">4 из 4</div>
+		</div>
+	</div> -->
+
+
+	<!-- Брейкпоинты -->
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Брейкпоинты</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div class="exampl-div">col</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">col</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">col</div>
+		</div>
+		<div class="col">
+			<div class="exampl-div">col</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6 col-md-8">
+			<div class="exampl-div">col-md-8</div>
+		</div>
+		<div class="col-6 col-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+	</div> -->
+
+	<!-- Отображение на мобильных устройствах -->
+	<!-- Не обязательно указывать дефолтные классы col -->
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Отображение сетки на мобильных устройствах</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="exampl-div">col-sm-8</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="exampl-div">col-sm-4</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm">
+			<div class="exampl-div">1 из col-sm</div>
+		</div>
+		<div class="col-sm">
+			<div class="exampl-div">2 из col-sm</div>
+		</div>
+		<div class="col-sm">
+			<div class="exampl-div">3 из col-sm</div>
+		</div>
+	</div> -->
+
+
+	
+	<!-- Создание сложной комбинированной сетки -->
+	<!-- Для каждой колонки можно задать любое поведение на разных разрешениеях с помощью адаптивных классов -->
+<!-- 	<div class="row">
+		<div class="col">
+			<h3 class="text-center">Создание сложной комбинированной сетки</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<div class="exampl-div">col-md-8</div>
+		</div>
+		<div class="col-6 col-md-4">
+			<div class="exampl-div">col-6 col-md-4</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6 col-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+		<div class="col-6 col-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+		<div class="col-6 col-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<div class="exampl-div">col-6</div>
+		</div>
+		<div class="col-6">
+			<div class="exampl-div">col-6</div>
+		</div>
+	</div> -->
+
+
+
+	<!-- Выравнивание вертикальное -->
+	<!-- <div class="row">
+		<div class="col">
+				<h3 class="text-center">Горизонтальное и вертикальное выравнивание</h3>
+			</div>
+		</div>
+	</div> -->
+	<!-- <div class="exampl-cont">
+		<div class="row align-items-start">
+			<div class="col">
+				<div class="exampl-div">Вверх</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Вверх</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Вверх</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="exampl-cont">
+		<div class="row align-items-center">
+			<div class="col">
+				<div class="exampl-div">Середина</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Середина</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Середина</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="exampl-cont">
+		<div class="row align-items-end">
+			<div class="col">
+				<div class="exampl-div">Низ</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Низ</div>
+			</div>
+			<div class="col">
+				<div class="exampl-div">Низ</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Горизонтальное выравнивание элементов -->
+	<!-- <div class="exampl-cont">
+		<div class="row">
+			<div class="col align-self-start">
+				<div class="exampl-div">Вверх</div>
+			</div>
+			<div class="col align-self-center">
+				<div class="exampl-div">Середина</div>
+			</div>
+			<div class="col align-self-end">
+				<div class="exampl-div">Низ</div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<!-- Убираем поля между колонками -->
+	<!-- <div class="row">
+		<div class="col">
+				<h3 class="text-center">Убираем поля между колонками</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="row no-gutters">
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+		<div class="col-4">
+			<div class="exampl-div">col-4</div>
+		</div>
+	</div> -->
+
+
+	<!-- Перенос колонок на новую строку -->
+	<!-- <div class="row">
+		<div class="col">
+				<h3 class="text-center">Перенос колонок на новую строку</h3>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- <div class="row">
+		<div class="col-8">
+			<div class="exampl-div">col-8</div>
+		</div>
+		<div class="col-5">
+			<div class="exampl-div">8 + 5 > 12 колонок. Элемент в 5 колонок будет перенесен на новую строку</div>
+		</div>
+		<div class="col-6">
+			<div class="exampl-div">Этот лемент будет находится на второй строке рядом с элементов в 5 колонок</div>
+		</div>
+	</div> -->
+
+	
+
+
+	<!-- Порядок элементов -->
+	<!-- Order -->
+	<!-- <div class="row">
+		<div class="col">
+			<h3 class="text-center">Классы задающие порядок элементов</h3>
+		</div>
+	</div>
+
+	<div class="row">
+	 	<div class="col">
+	 		<div class="exampl-div">1-й неупорядоченный элмент</div>
+	 	</div>
+
+	 	<div class="col order-12">
+	 		<div class="exampl-div">2-й упорядоченный как последний элмент</div>
+	 	</div>
+
+	 	<div class="col order-1">
+	 		<div class="exampl-div">3-й неупорядоченный как первый элмент</div>
+	 	</div>
+	</div>
+
+	<div class="row">
+	 	<div class="col">
+	 		<div class="exampl-div">1-й неупорядоченный элмент</div>
+	 	</div>
+
+	 	<div class="col order-last">
+	 		<div class="exampl-div">2-й упорядоченный как последний элмент</div>
+	 	</div>
+
+	 	<div class="col order-first">
+	 		<div class="exampl-div">3-й упорядоченный как первый элмент</div>
+	 	</div>
+	</div>
+ -->
+
+	<!-- Классы смещения -->
+	<!-- <div class="row">
+		<div class="col">
+			<h3 class="text-center">Классы задающие смещение элементов</h3>
+		</div>
+	</div> -->
+
+	<!-- <div class="row">
+		<div class="col-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+		<div class="col-md-4 offset-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+	</div> -->
+
+	<!-- <div class="row">
+		<div class="col-md-4 offset-md-1">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+		<div class="col-md-4 offset-md-4">
+			<div class="exampl-div">col-md-4</div>
+		</div>
+	</div> -->
+
+
+	<!-- Вложенность -->
+	<!-- <div class="row">
+		<div class="col">
+			<h3 class="text-center">Вложенность</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<div class="exampl-div">
+				<div class="row">
+					<div class="col">
+						<div class="exampl-div">Вложенность</div>
+					</div>
+					<div class="col">
+						<div class="exampl-div">Вложенность</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ -->
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+<script src="js/vendor.js"></script>
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

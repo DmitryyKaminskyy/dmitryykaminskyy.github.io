@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Описание проекта на бутстрапе">
+	<meta name="keywords" content="Описание проекта на бутстрапе">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+	<title>Мой проект на бутстрапе</title>
+
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- Основной файл стилей -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#EBEBEB">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#EBEBEB">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#EBEBEB">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<section class="first">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="btn__orange" data-toggle="modal" data-target="#modal_consultation">Консультация специалиста</div>
+		</div>
+	</div>
+</section>
+
+<script src="js/vendor.js"></script>
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="modal_consultation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <form class="order js-form" action="success.php" method="post" novalidate="novalidate" id="popupResult">
+        <input type="text" class="form-inputs order__input" name="name" placeholder="Введите Ваше имя:">
+        <input type="text" class="form-inputs order__input" name="tel" placeholder="Введите Ваш телефон:">
+        <input type="text" class="form-inputs order__input" name="email" placeholder="Введите Ваш e-mail:">
+        <div type="submit" class="btn__orange" data-submit>Отправить</div>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="loader">
+	<img src="img/ripple.svg">
+</div>
+
+<div id="overlay">
+	<div id="thx">
+		<i class="fa fa-handshake-o" aria-hidden="true"></i>
+		Спасибо! Мы обязательно вам перезвоним
+	</div>
+</div>
+</body>
+</html>
