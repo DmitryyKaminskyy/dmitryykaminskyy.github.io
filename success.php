@@ -37,7 +37,7 @@ $myemail = "drakon2000@ukr.net";
 	<a download href='$refferer/leads.txt'>Download the full list of applications in txt-format</a><br><br>
 	";
 
-mail($myemail, $tema, $message_to_myemail, "From: KDB <webmaster@kaminskiydmitriy.com> \r\n"."Content-type: text/html; charset=utf-8\r\n" );
+mail($myemail, $tema, $message_to_myemail, "From: KDB <$myemail> \r\n"."Content-type: text/html; charset=utf-8\r\n" );
 
 $file_1 = 'leads.txt';
 $tofile_1 = "===================================================================\n
